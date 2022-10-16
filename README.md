@@ -16,7 +16,6 @@
 1. Write a `Rectangle` class, allowing you to build a rectangle with `length` and `width` attributes.
 2. Create a `perimeter()` method to calculate the perimeter of the rectangle and an `area()` method to calculate the area of ​​the rectangle.
 3. Create a method `display()` that displays the length, width, perimeter and area of an object created using an instantiation on `Rectangle` class.
-4. Create a `Parallelepipede` child class inheriting from the `Rectangle` class and with a `height` attribute and another `volume()` method to calculate the volume of the `Parallelepiped`.
 
 ## 3. BankAccount
 
@@ -30,6 +29,9 @@
 
 ## HackerRank Questions
 
-1. Inheritance: https://www.hackerrank.com/challenges/inheritance/problem
+Inheritance: https://www.hackerrank.com/challenges/inheritance/problem
+
+
+## Note:
+If you haven't been given specifics for a task, use your judgement to best solve the problem. You have the freedom and flexibility to use your creativity for tasks that might be uncertain to you.
   
-2. Classes: Dealing with Complex Numbers: https://www.hackerrank.com/challenges/class-1-dealing-with-complex-numbers/problem
