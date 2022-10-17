@@ -22,38 +22,33 @@
 #     def __init__(self,capacity):
 #         self.capacity=capacity 
 #     def add_student(self):
+#         while True:
+#             if len(capacity_obj.students)<=self.capacity:
+#                 student_name=input('enter student name')
+#                 capacity_obj.students.append(student_name)
+#                 print(capacity_obj.students)
         
-#         while len(capacity.students)<= self.capacity:
-#             student_name=(input('enter student name'))
-#             capacity.students.append(student_name)
-#             return capacity.students
-#         else:
-#             print('error')
+#             else:
+#                 if len(capacity_obj.students)>self.capacity:
+#                   print('error;beyoned the capacity')
+#                   break
+#     def print_student(self):
+#         ad_st=capacity_obj.add_student()
+#         for student in capacity_obj.students: 
+#             print(student,end=', ')
+# capacity_obj=school(3)
+# capacity_obj.add_student()
+# print(capacity_obj.print_student())
             
-       
-# capacity=school(3) 
-# print(capacity.add_student())   
-
-def s():
-    l=[]
-    while len(l)<=2:
-        d=input('enter n')
-        l.append(d)
-        print(l,end='')
-    else:
-        print('error')
-s()
-
-            
-        
+class student():
+    def __init__(self,name,age,gender) :
+        self.name=name
+        self.age=age
+        self.gender=gender
+    def __str__(self) :
+        return f'{self.name},{self.age},{self.gender}'
+        #"name is % s, " "age is % s"  "gender is % s" % (self.name, self.age,self.gender)
     
-# class student():
-#     def __init__(self,name,age,gender) :
-#         self.name=name
-#         self.age=age
-#         self.gender=gender
-#     def __str__(self) :
-#         "name is % s, " "age is % s"  "gender is % s" % (self.a, self.b)
         
-#     def add_student(self):
-        
+student_obj=student('name','age','gender')
+print(student_obj)

@@ -25,6 +25,6 @@ class rectangle():
     def display(self):
         x=rectangle.area()
         y=rectangle.perimeter()
-        print(f'lenght:{self.lenght}, width:{self.width},area:{x},perimeter:{y}')
+        return f'lenght:{self.lenght}, width:{self.width},area:{x},perimeter:{y}'
 rectangle=rectangle(3,4)
 print(rectangle.display())
