@@ -1,6 +1,3 @@
-import sys
-
-
 class School:
     students = []
 
@@ -43,6 +40,6 @@ student1.add_student(cap.capacity)
 student2.add_student(cap.capacity)
 print(cap.students)
 
-student3 = Student("Rose", 21, "F")
+student3 = Student("Lily", 21, "F")
 student3.add_student(cap.capacity)
 print(cap.students)
