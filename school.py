@@ -27,6 +27,7 @@ class Student:
         return f'''Student name: {self.name},
         age: {self.age},
         gender: {self.gender}'''
+ 
         
 school = School(2)
 std1 = Student('Jack','11','M')
