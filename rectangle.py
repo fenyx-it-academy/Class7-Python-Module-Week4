@@ -15,5 +15,6 @@ class Rectangle:
             Perimeter: {self.perimeter()}
             Area: {self.area()}''')
 
+
 rec = Rectangle(12,15)
 rec.display()
